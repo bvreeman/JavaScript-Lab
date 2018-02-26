@@ -1,15 +1,15 @@
 // JavaScript Document
 
 // Create variable outside of a function
-var outsideValue = 5;
+let outsideValue = 5;
 
 // Output variables to the console
-console.log("From outside: outsideValue = " + outsideValue);
-console.log("From outside: functionValue = " + functionValue);
+// console.log("From outside: outsideValue = " + outsideValue);
+// console.log("From outside: functionValue = " + functionValue);
 
-//myFunction();
+myFunction();
 
-//myOtherFunction();
+
 
 function myFunction()
 {
@@ -19,6 +19,8 @@ function myFunction()
     // Output variables to the console
     console.log("From inside: outsideValue = " + outsideValue);
     console.log("From inside: functionValue = " + functionValue);
+
+    myOtherFunction();
 }
 
 function myOtherFunction()

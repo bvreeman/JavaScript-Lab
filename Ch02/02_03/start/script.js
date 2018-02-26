@@ -1,7 +1,7 @@
 // JavaScript Document
 
 // Create a variable
-var myScore;
+let myScore;
 init();
 changeScore();
 
